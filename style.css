@@ -82,13 +82,19 @@ body {
     flex: 1;
 }
 
-.search-bar {
+input {
+    outline: none;
     display: inline-block;
     max-width: 450px;
-    height: 20px;
+    height: 25px;
+    border: none;
     border-radius: 12px;
     background-color: var(--color-slate);
     flex: 1;
+}
+
+input:focus {
+    border: 2px solid var(--bg-color-blue);
 }
 
 .logo-small {
